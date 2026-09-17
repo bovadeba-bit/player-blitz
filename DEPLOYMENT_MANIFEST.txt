@@ -1,0 +1,27 @@
+プレイヤー Wispbyte Deployment Manifest
+Generated: 2026-09-16
+
+SHA-256 checksums:
+200d52c0d4f6ee829ee37286b7aea7efedf3ab9c7e7b7237566f190970675a9b  ./.env.example
+76d9a4f6776b438d5d98c711cbefbb95b9b1e9a5402fc8f592c89fc7d67aec5d  ./.gitignore
+60f2f3315511c0bdd5ba926197ce13b88ed51ff00787a207a2d076752c02207d  ./PROJECT_README.md
+fc66effcfaf5166754fc572c6dddbf3148d57495626507d7be22f00f1191ec0f  ./WISPBYTE_SETUP.md
+85b031de63e3d7bfe5d3ef2cbe55748847407b68097f588d1ea6177abe555501  ./client/index.html
+c8b725573d344028de32537ddfedeefb63a83e04e7779d85c2fbbb8160c242ed  ./client/public/themes/README.txt
+36e6ac34ee30680afa70b64c1a135674e879913064b13c06e54fcd4df65fad06  ./client/src/main.js
+a1c73fa3c213cc7dd65bf133947ec342c01199056768f09aa874af75f385ed84  ./client/src/style.css
+ee896b959d88cc0f346140d6ce36c128b1d667d85b82c945bd8b1f953d35cd50  ./data/README.txt
+73b9efdd8343a06c5499de4688924aeeb189bf320f6b5b5e12cadae2b497142f  ./dist/assets/index-C71_fFBX.css
+700c3b27ce9bbae0913b07ceb12eac142c1bc5549222a6595956a730263421fd  ./dist/assets/index-jl4yyWnn.js
+5310b5d8827501e60a567b96ed50e95283d8b3c06fb920abc4c5b32c1dfd885f  ./dist/index.html
+c8b725573d344028de32537ddfedeefb63a83e04e7779d85c2fbbb8160c242ed  ./dist/themes/README.txt
+94d7e0bcb520d246dd5a7db6fd03c5f4e76997930d6fd876228ca675e5af355e  ./ensure_runtime.js
+86033b64ad9ed81302fb26ec1b014c6c1f0f542b618ea6e244cd256df78e9f82  ./music/audio-engine.js
+8afb39b460b42dbdc3cd1bb92a68f816c2e89b14f23b21f11b88a00e2e47d548  ./music/resolver.js
+233438f53697a968b4bb3c5c294af82afb715ad0c30530229227a6af774f0600  ./package-lock.json
+621d1b8513bc5456ce328774537d761c034d775816482e8b45927703df8e356f  ./package.json
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./runtime/.gitkeep
+146c2f56b473d6117b83a68f2b91c51261481fc84c4d93a8618a2c14fd0ab0e4  ./server.js
+4e47e76be06e454cff829eb3b9a725660a5320615603d4e347103c82247b09a1  ./start-wispbyte.sh
+94008bb8b78ae112253078a860360edbe43b9b3f2bdfde6ffbc6d2d9aca06ce9  ./verify_install.js
+ab4dc24db9f7ee8fe5e93ba61ad93c69ed4d3f57dbb15e535cf1e8b08e5b7156  ./vite.config.js

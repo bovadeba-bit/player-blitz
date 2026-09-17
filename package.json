@@ -1,0 +1,33 @@
+{
+  "name": "player-activity-phase5-app-first",
+  "version": "0.5.4",
+  "private": true,
+  "description": "プレイヤー Phase 5.4: polished app-first Discord music Activity with automatic live suggestions, explicit-result playback, stable mobile scroll, lower render cost, libraries, priority queue, themes, and fast cached playback",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n BACKEND,ACTIVITY \"node server.js\" \"vite --host 0.0.0.0\"",
+    "build": "vite build",
+    "start": "node ensure_runtime.js && node server.js",
+    "check": "node --check server.js && node --check music/resolver.js && node --check music/audio-engine.js && node --check ensure_runtime.js && node --check client/src/main.js && node --check vite.config.js",
+    "local": "vite build && node server.js",
+    "start:server": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "@discord/embedded-app-sdk": "2.5.0",
+    "discord.js": "14.27.0",
+    "dotenv": "17.3.1",
+    "express": "5.1.0",
+    "ws": "8.18.3",
+    "spotify-url-info": "3.3.2",
+    "@discordjs/voice": "0.19.2",
+    "ffmpeg-static": "5.3.0",
+    "youtubei.js": "18.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "9.2.1",
+    "vite": "7.1.3"
+  }
+}
